@@ -1,0 +1,366 @@
+[
+  {
+    "query": "When did we decide on the trip destination?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": true,
+    "category": "meaning",
+    "notes": "zero overlap with 'chalo Manali fix hai'",
+    "query_id": 1
+  },
+  {
+    "query": "What was the final budget amount we agreed on?",
+    "ground_truth_msg_ids": [
+      1334
+    ],
+    "is_hard": true,
+    "category": "meaning",
+    "notes": "zero overlap with 'Budget finalise kar diya, 45k per person'",
+    "query_id": 2
+  },
+  {
+    "query": "Which hotel or stay did we book?",
+    "ground_truth_msg_ids": [
+      2136
+    ],
+    "is_hard": true,
+    "category": "meaning",
+    "notes": "zero overlap",
+    "query_id": 3
+  },
+  {
+    "query": "Have the tickets already been purchased?",
+    "ground_truth_msg_ids": [
+      2170
+    ],
+    "is_hard": true,
+    "category": "meaning",
+    "notes": "zero overlap with 'flight book kar di'",
+    "query_id": 4
+  },
+  {
+    "query": "Where are we going for the holiday?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": true,
+    "category": "meaning",
+    "query_id": 5
+  },
+  {
+    "query": "How much money per person was locked?",
+    "ground_truth_msg_ids": [
+      1334
+    ],
+    "is_hard": true,
+    "category": "meaning",
+    "query_id": 6
+  },
+  {
+    "query": "What accommodation place was confirmed?",
+    "ground_truth_msg_ids": [
+      2136
+    ],
+    "is_hard": true,
+    "category": "meaning",
+    "query_id": 7
+  },
+  {
+    "query": "Did someone already reserve the flights?",
+    "ground_truth_msg_ids": [
+      2170
+    ],
+    "is_hard": true,
+    "category": "meaning",
+    "query_id": 8
+  },
+  {
+    "query": "What did Priya say about the budget?",
+    "ground_truth_msg_ids": [
+      1334
+    ],
+    "is_hard": false,
+    "category": "person",
+    "query_id": 9
+  },
+  {
+    "query": "What did Rahul say about Manali?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": false,
+    "category": "person",
+    "query_id": 10
+  },
+  {
+    "query": "What did Sonal say about booking?",
+    "ground_truth_msg_ids": [
+      2165
+    ],
+    "is_hard": false,
+    "category": "person",
+    "query_id": 11
+  },
+  {
+    "query": "Amit ne budget ke baare me kya kaha?",
+    "ground_truth_msg_ids": [
+      1294
+    ],
+    "is_hard": false,
+    "category": "person",
+    "query_id": 12
+  },
+  {
+    "query": "What did Meera suggest for the hotel?",
+    "ground_truth_msg_ids": [
+      2148
+    ],
+    "is_hard": false,
+    "category": "person",
+    "query_id": 13
+  },
+  {
+    "query": "What did we discuss about the trip last month?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": false,
+    "category": "time",
+    "query_id": 14
+  },
+  {
+    "query": "Budget wali baat kab hui thi?",
+    "ground_truth_msg_ids": [
+      1334
+    ],
+    "is_hard": false,
+    "category": "time",
+    "query_id": 15
+  },
+  {
+    "query_id": 16,
+    "query": "Manali ka plan final hua kya?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 17,
+    "query": "45k per person decide hua tha?",
+    "ground_truth_msg_ids": [
+      1334
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 18,
+    "query": "hotel ka naam kya final hua?",
+    "ground_truth_msg_ids": [
+      2136
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 19,
+    "query": "flight book ho gayi kya?",
+    "ground_truth_msg_ids": [
+      2170
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 20,
+    "query": "trip destination kya decide kiya?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 21,
+    "query": "budget kitna fix hua?",
+    "ground_truth_msg_ids": [
+      1334
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 22,
+    "query": "stay kahan book kiya?",
+    "ground_truth_msg_ids": [
+      2136
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 23,
+    "query": "tickets book hue kya?",
+    "ground_truth_msg_ids": [
+      2170
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 24,
+    "query": "chalo Manali fix hai â€“ kab bola?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 25,
+    "query": "Budget finalise kar diya â€“ kisne?",
+    "ground_truth_msg_ids": [
+      1334
+    ],
+    "is_hard": false,
+    "category": "person"
+  },
+  {
+    "query_id": 26,
+    "query": "Hill View Homestay final â€“ confirm?",
+    "ground_truth_msg_ids": [
+      2136
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 27,
+    "query": "yaar budget thoda kam kar lete hain â€“ kisi ne kaha?",
+    "ground_truth_msg_ids": [
+      1314
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 28,
+    "query": "Snow Valley Resort ke baare me kya baat hui?",
+    "ground_truth_msg_ids": [
+      2094
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 29,
+    "query": "Goa option discuss hua tha kya?",
+    "ground_truth_msg_ids": [
+      483
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 30,
+    "query": "snow dekhne ko milega â€“ kisne suggest kiya?",
+    "ground_truth_msg_ids": [
+      482
+    ],
+    "is_hard": false,
+    "category": "person"
+  },
+  {
+    "query_id": 31,
+    "query": "all inclusive roughly â€“ budget me include?",
+    "ground_truth_msg_ids": [
+      1349
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 32,
+    "query": "confirmation aagayi â€“ hotel booking?",
+    "ground_truth_msg_ids": [
+      2165
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 33,
+    "query": "next month possible hai â€“ trip ke liye?",
+    "ground_truth_msg_ids": [
+      460
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 34,
+    "query": "2.2k pe mil raha â€“ konsa stay?",
+    "ground_truth_msg_ids": [
+      2145
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 35,
+    "query": "per person kitna finalised?",
+    "ground_truth_msg_ids": [
+      1334
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 36,
+    "query": "destination decide karo pehle â€“ baad me kya hua?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 37,
+    "query": "booking.com pe check kiya â€“ result?",
+    "ground_truth_msg_ids": [
+      2092
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 38,
+    "query": "travel + stay + food mila ke â€“ amount?",
+    "ground_truth_msg_ids": [
+      1316
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 39,
+    "query": "winter me Manali better â€“ agree hua?",
+    "ground_truth_msg_ids": [
+      499
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  },
+  {
+    "query_id": 40,
+    "query": "bas hotel pending â€“ ab status?",
+    "ground_truth_msg_ids": [
+      2170
+    ],
+    "is_hard": false,
+    "category": "meaning"
+  }
+]

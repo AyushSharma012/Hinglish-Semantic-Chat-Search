@@ -1,0 +1,35 @@
+# Core
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Embeddings
+sentence-transformers>=2.2.2
+torch>=2.0.0
+numpy>=1.24.0
+
+# Storage & Vector Index
+chromadb>=0.4.22
+sqlite-utils>=3.35
+
+# Query processing
+dateparser>=1.2.0
+rapidfuzz>=3.6.0
+regex>=2023.12.25
+
+# API
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+httpx>=0.26.0
+
+# UI
+streamlit>=1.30.0
+
+# Evaluation & Data
+pandas>=2.1.0
+tqdm>=4.66.0
+faker>=22.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+pyyaml>=6.0.1
