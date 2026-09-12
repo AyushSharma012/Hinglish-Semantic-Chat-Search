@@ -35,12 +35,6 @@ Our **22.50% gap** demonstrates that:
 
 ---
 
-## Demo Video
-
-### Watch the System in Action
-
-[![Demo Video](https://img.shields.io/badge/Watch-Demo_Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/Va74Ab8aeq0)
-
 **Video highlights:**
 1. **UI walkthrough** - Shows the Streamlit interface with 4,200 messages
 2. **Basic search** - "45k per person decide hua tha?" finds budget messages
