@@ -123,7 +123,7 @@ hinglish-semantic-chat-search/
 ├── .env.example
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
 
