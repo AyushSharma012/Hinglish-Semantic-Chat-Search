@@ -91,35 +91,38 @@ python scripts/run_evaluation.py --top-k 5
 
 ---
 
-## Project Structure
+## 📁 Project Structure
+
+```text
 hinglish-semantic-chat-search/
-├── config/settings.py # All configurable parameters
-├── data/
-│ ├── raw/
-│ │ ├── synthetic_messages.json # 4,200 synthetic messages
-│ │ └── queries.json # 40 labeled queries
-│ ├── processed/
-│ │ ├── messages.db # SQLite store
-│ │ └── chroma/ # ChromaDB index
-│ ├── evaluation/
-| | ├── queries.json # 40 test queries
-| | ├── ground_truth.json # Ground truth mappings
-| | └── hard_queries.json # 8 hard query IDs
-├── src/
-│ ├── data/ # Message store, embeddings, hybrid index
-│ ├── query/ # Person/time resolution + query embedding
-│ ├── retrieval/ # Hybrid search + ranking
-│ ├── context/ # ±N context window assembly
-│ ├── api/ # FastAPI (POST /search …)
-│ ├── ui/ # Enhanced Streamlit UI
-│ └── evaluation/ # Accuracy harness
-├── scripts/
-│ ├── generate_corpus.py # Generate 4,200 messages + 40 queries
-│ ├── build_index.py # Build embeddings + ChromaDB index
-│ └── run_evaluation.py # Run 40-query evaluation
-├── requirements.txt
+├── 📁 config/
+│   └── settings.py              # All configurable parameters
+├── 📁 data/
+│   ├── 📁 raw/
+│   │   ├── synthetic_messages.json # 4,200 synthetic messages
+│   │   └── queries.json            # 40 labeled queries
+│   ├── 📁 processed/
+│   │   ├── messages.db          # SQLite store
+│   │   └── chroma/              # ChromaDB index
+│   └── 📁 evaluation/
+│       ├── queries.json         # 40 test queries
+│       ├── ground_truth.json    # Ground truth mappings
+│       └── hard_queries.json    # 8 hard query IDs
+├── 📁 src/
+│   ├── 📁 data/                 # Message store, embeddings, hybrid index
+│   ├── 📁 query/                # Person/time resolution + query embedding
+│   ├── 📁 retrieval/            # Hybrid search + ranking
+│   ├── 📁 context/              # ±N context window assembly
+│   ├── 📁 api/                  # FastAPI endpoints (POST /search, etc.)
+│   ├── 📁 ui/                   # Enhanced Streamlit UI
+│   └── 📁 evaluation/           # Accuracy harness & metrics
+├── 📁 scripts/
+│   ├── generate_corpus.py       # Generate 4,200 messages + 40 queries
+│   ├── build_index.py           # Build embeddings + ChromaDB index
+│   └── run_evaluation.py        # Run 40-query evaluation
+├── .env.example
 ├── README.md
-└── .env.example
+└── requirements.txt
 
 
 ---
@@ -181,17 +184,19 @@ The harness reports:
 python scripts/run_evaluation.py --top-k 5
 ```
 
-### Sample Output
+### 📊 Sample Output
+
+```text
 ============================================================
 EVALUATION REPORT
 ============================================================
-Total queries : 40
+Total queries       : 40
 Hard (zero-overlap) : 8
-Top-k : 5
+Top-k               : 5
 
-Overall accuracy : 35.00% (14/40)
+Overall accuracy    : 35.00% (14/40)
 Hard-query accuracy : 12.50% (1/8)
-Gap (overall − hard) : 22.50%
+Gap (overall − hard): 22.50%
 ============================================================
 
 
