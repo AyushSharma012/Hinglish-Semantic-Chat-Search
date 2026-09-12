@@ -198,7 +198,7 @@ Overall accuracy    : 35.00% (14/40)
 Hard-query accuracy : 12.50% (1/8)
 Gap (overall − hard): 22.50%
 ============================================================
-
+```
 
 ### Example Test Queries
 
